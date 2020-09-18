@@ -11,7 +11,11 @@ class App extends Component {
 
 
   //Your code here:
-
+  
+  componentDidMount(){
+    console.log("Thisshouldbe first time it mounts")
+    this.handleAddTimer()
+  }
 
 
 
